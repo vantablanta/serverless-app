@@ -17,6 +17,10 @@ function Talks() {
     }
     const [formState, setFormState] = useState(initialState)
     const [talk, setTalk] = useState()
+    const sortParams = {
+        sort: "sortKey",
+        sortDirection: "DESC"
+    }
 
     function setInput(key, value) {
         setFormState({ ...formState, [key]: value })
@@ -53,10 +57,6 @@ function Talks() {
 
     // ORDERED
     async function getSortedTodos() {
-        const sortParams = {
-            sort: "sortKey",
-            sortDirection: "DESC"
-        }
         try {
             const data = await API.graphql(graphqlOperation(todosByDate, { ...sortParams }))
             const talkItems = data.data.todosByDate.items
@@ -155,7 +155,6 @@ function Talks() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 

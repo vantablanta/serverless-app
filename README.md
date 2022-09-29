@@ -32,5 +32,5 @@ If you used the amplify cli to add an api these files will be generated for you.
 
 ### About Developer
 
-When I imagined documenting this, I had a good idea of what should have been highlighted and it was interesting, but on paper it's not :(
+When I imagined documenting this, I had a good idea of what should have been highlighted and it was interesting, but on paper it's not :smile: - - - -
 Anyway, please go through the code it might be able to answer questions you might have.
