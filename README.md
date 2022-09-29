@@ -20,7 +20,8 @@ I can only term them as such coz I managed to fix them otherwise thy are bugs I 
 
 - I tried passing actual values to the varaibales in my queries. I think just pass values from the frontend .
 - In most cases the data being passed as a parameter will usually be a map . So, for instance you are passing an id for deletion,
-  it should be inside { nameoFMutationFunction, variable : {id : {theValueAsAMAp}}}
+  it should be inside
+  `{ nameoFMutationFunction, variable : {id : {theValueAsAMap}}}`
 
 ### First time with GraphQL
 
