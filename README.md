@@ -41,4 +41,6 @@ When I imagined documenting this, I had a good idea of what should have been hig
 
 ---
 
-Anyway, please go through the code it might be able to answer questions you might have.
+Anyway, please go through the code it might be able to answer questions you might have. Incase you'd like to checkout the **_very well documented_** guide by Nader Dabit [click here](https://github.com/dabit3/aws-appsync-react-workshop).
+
+Also one of the most important handbook I used was [VERY IMPORTANT GUIDE](https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/)
