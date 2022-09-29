@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+background-color: #ff4c3b;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #3486f3;
+}
+
+.add{
+    background-color: #206664 !important;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add:hover{
+    color: black;
+    background-color: #ff4c3b !important;
+}
+
+.card-title{
+    color: #206664
+}
+
+small{
+    font-weight: bold !important;
+}
+
+.icon{
+    color: #ff4c3b;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #206664;
+}
+
+.footer{
+    background-color:  #ff4c3b;
+    color: white;
+    font-weight: 5vw;
+
 }
