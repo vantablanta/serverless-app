@@ -10,6 +10,7 @@ export const getTodo = /* GraphQL */ `
       description
       speakerName
       speakerBio
+      sort
       createdAt
       updatedAt
     }
@@ -29,6 +30,7 @@ export const listTodos = /* GraphQL */ `
         description
         speakerName
         speakerBio
+        sort
         createdAt
         updatedAt
       }

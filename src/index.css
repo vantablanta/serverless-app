@@ -55,3 +55,15 @@ small{
     font-weight: 5vw;
 
 }
+
+.signout {
+    background-color: #ff4c3b !important;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signout:hover {
+    color: white;
+    background-color: #206664 !important;
+}
